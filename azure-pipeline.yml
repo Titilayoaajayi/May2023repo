@@ -41,8 +41,8 @@ stages:
          downloadPath: '$(System.DefaultWorkingDirectory)'    
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: 'Azure subscription 1 (b262904d-4540-4dc0-8342-06f643f3a0ea)'
-        appName: 'boomshak'
+        azureSubscription: 'Azure subscription 1 (12a17ca2-a636-4132-b6ae-c21a47930330)'
+        appName: 'May2023WebApp'
         package: '$(System.DefaultWorkingDirectory)/**/*.zip'
         runtimeStack: 'NODE|14-lts'
         startUpCommand: 'npm start'
